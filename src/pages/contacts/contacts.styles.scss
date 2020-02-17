@@ -1,0 +1,39 @@
+.contacts-page {
+  display: flex;
+  justify-content: center;
+
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    margin: 0 20px;
+
+    .contacts-description {
+      font-family: 'Cantarell', sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+      color: #4a4a4a;
+      line-height: 30px;
+      margin: 15px 0px;
+    }
+
+    .contacts-title {
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Cantarell', sans-serif;
+      font-weight: 500;
+      font-size: 25px;
+      color: #4a4a4a;
+    }
+
+    .contacts-info {
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Cantarell', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      color: #4a4a4a;
+      line-height: 35px;
+    }
+  }
+}

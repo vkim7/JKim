@@ -4,11 +4,13 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 500;
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 0 25px;
   }
 
   .options {
@@ -16,11 +18,19 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     .option {
       padding: 10px 15px;
       cursor: pointer;
     }
+  }
+
+  .option-sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    cursor: pointer;
   }
 }

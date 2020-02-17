@@ -1,11 +1,11 @@
 import React from 'react';
 
 import './homepage.styles.scss';
-import Directory from '../../components/directory/directory.component';
+import Projects from '../projects/projects.component';
 
 const HomePage = () => (
   <div className='homepage'>
-    <Directory />
+    <Projects />
   </div>
 );
 

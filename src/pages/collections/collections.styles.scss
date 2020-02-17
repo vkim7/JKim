@@ -1,0 +1,44 @@
+.collection-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 500;
+    margin: 20px 6px;
+    font-size: 25px;
+    color: #4a4a4a;
+  }
+
+  .image-container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .image {
+    margin: 0px 2px;
+  }
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 30px;
+  }
+}
